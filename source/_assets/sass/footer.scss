@@ -1,0 +1,62 @@
+.footer__logo {
+    background: none;
+    color: white;
+    background-color: $primary-color;
+    width: 100%;
+    padding: 2em 1em;
+}
+
+@include media-breakpoint-up(md) {
+    .footer__logo {
+        text-align: right;
+        margin: -2em 0 0 0;
+        padding: 4em 0 2em;
+        padding-right: 5em;
+
+    }
+}
+
+.footer__logo img {
+    filter: brightness(0) invert(1);
+    z-index: 10;
+    height: 100px;
+}
+
+.footer__header {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.footer__body {
+    white-space: nowrap;
+    color: $primary-color;
+    font-weight: bold;
+}
+
+@include media-breakpoint-up(lg) {
+    .footer__body {
+        font-size: 1.1em;
+    }
+}
+
+.footer__body a {
+    color: $primary-color;
+}
+
+.footer__body i {
+    color: white;
+    margin-right: .25em;
+    width: 20px;
+}
+
+.sponsors {
+    padding: 2em;
+    width: 100%;
+    background: #131823;
+    color: #989898
+}
+
+.footer__contact-background {
+    background: $secondary-color;
+}

@@ -1,0 +1,17 @@
+* Installation
+
+** PHP dependencies
+
+=docker-compose run composer install=
+
+** NPM dependencies
+
+=docker-compose run npm npm install=
+
+** Build files
+
+=docker-compose run php php vendor/bin/jigsaw build=
+
+** Serve
+
+=docker-compose up php=

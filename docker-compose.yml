@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+  npm:
+    image: node:7
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    ports:
+      - "3000:3000"
+    command: [npm, run, dev]
+
+  php:
+    image: php:7.1-alpine
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    ports:
+      - "8000:8000"
+    command: ["php", "-S", "0.0.0.0:8000", "-t", "build_local/"]
+
+  composer:
+    image: composer/composer:alpine
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
