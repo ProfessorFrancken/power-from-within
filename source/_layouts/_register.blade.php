@@ -1,5 +1,5 @@
 <div class="container" id="register">
-    <h2>
+    <h2 class="section-header">
         Register
     </h2>
     <form action="https://formspree.io/symposium@professorfrancken.nl" method="POST" >
