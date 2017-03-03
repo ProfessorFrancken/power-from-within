@@ -54,7 +54,7 @@
             </div>
         </li>
         <li class="agenda-item d-flex d-flex align-items-end">
-            <a class="btn btn-lg btn-block btn-primary" href="">See more</a>
+            <a class="btn btn-lg btn-block btn-primary" href="#program">See more</a>
         </li>
     </ul>
 </div>
