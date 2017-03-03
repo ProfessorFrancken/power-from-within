@@ -1,22 +1,18 @@
 @component('_layouts.header._header_image')
-    @slot('title')
-        Experiences of a freshmen
-    @endslot
-    <div class="registration-cta__body text-right col-md-4 offset-md-5 align-self-center">
+    <div class="registration-cta__body text-right col-md-6 offset-md-3 align-self-center">
         <h1>
             <strong>
-                Become part of
+                17th of May:
+                Rocketscience
             </strong>
             <small>
-                the best<sup>*</sup> student association
+                <em>
+                Launching physics into space
+                </em>
             </small>
         </h1>
-
-        <p class="small">
-            *people tell us we are awesome
-        </p>
     </div>
     <div class="col-md-1 text-left registration-cta__button">
-        <a class="btn btn-primary" href="/register">Register</a>
+        <a class="btn btn-primary" href="#register">Register</a>
     </div>
 @endcomponent

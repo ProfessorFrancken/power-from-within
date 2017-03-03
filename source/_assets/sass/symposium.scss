@@ -1,0 +1,15 @@
+$secondary-color: #001f3e;
+$secondary-color: #ccc;
+$secondary-color-dark: darken($secondary-color, 10%);
+$secondary-color: #c4cdd4;
+$cta-image: './images/symposium/rocket-min.jpg';
+
+@import "app";
+
+.speaker-header {
+    margin-bottom: 1em;
+}
+
+.ribbon .ribbon__items.news-item__body {
+    color: #c6cdd2;
+}

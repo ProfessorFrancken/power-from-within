@@ -4,7 +4,7 @@
     <a class="header__title-link align-items-center align-middle d-inline-flex" href="/">
         <img
             alt="Logo of T.F.V. 'Professor Francken'"
-            src="/images/LOGO_KAAL.png"
+            src="./images/logo-min.png"
             class="img-fluid"
         />
         <span class="header__title text-left">

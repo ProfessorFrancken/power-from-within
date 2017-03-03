@@ -1,6 +1,10 @@
 // Set the border width of the border above the navigation
 $top-stroke-width: 6px;
 
+.header .container-fluid {
+    z-index: 1;
+}
+
 .header__logo {
     color: white;
     padding: 1em;

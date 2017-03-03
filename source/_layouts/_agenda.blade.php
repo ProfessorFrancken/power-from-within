@@ -1,59 +1,60 @@
 <div class="agenda">
     <h3 class="section-header agenda-header">
-        Agenda
+        Program
     </h3>
     <ul class="agenda-list list-unstyled">
-        <li class="agenda-item d-flex d-flex align-items-center">
+        <li class="agenda-item d-flex d-flex align-items-end">
             <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">13</h5>
-                <span class="agenda-item__date-month">Feb</span>
+                <h5 class="agenda-item__date-day">
+                    09
+                    <span class="agenda-item__date-month">00</span>
+                </h5>
             </div>
 
             <div class="agenda-item__body">
-                <h5 class="agenda-item__header">General Assembly</h5>
-                <p class="agenda-item__description">
-                    I think the board should take a shot of <strong>Ketel1</strong>
-                </p>
+                <h5 class="agenda-item__header">Registration and Coffee</h5>
             </div>
         </li>
-        <li class="agenda-item d-flex d-flex align-items-center">
+        <li class="agenda-item d-flex d-flex align-items-end">
             <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">03</h5>
-                <span class="agenda-item__date-month">Oct</span>
+                <h5 class="agenda-item__date-day">
+                    09
+                    <span class="agenda-item__date-month">30</span>
+                </h5>
             </div>
 
             <div class="agenda-item__body">
-                <h5 class="agenda-item__header">Ice Skating with the Sportcie</h5>
-                <p class="agenda-item__description">
-                    Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a.
-                </p>
+                <h5 class="agenda-item__header">Opening</h5>
+                <p class="agenda-item__description">Prof. Van der Giessen</p>
             </div>
         </li>
-        <li class="agenda-item d-flex d-flex align-items-center">
+        <li class="agenda-item d-flex d-flex align-items-end">
             <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">21</h5>
-                <span class="agenda-item__date-month">Dec</span>
+                <h5 class="agenda-item__date-day">
+                    09
+                    <span class="agenda-item__date-month">45</span>
+                </h5>
             </div>
 
             <div class="agenda-item__body">
-                <h5 class="agenda-item__header">Vrijmibo</h5>
-                <p class="agenda-item__description">
-                    Id ornare arcu odio ut sem.
-                </p>
+                <h5 class="agenda-item__header">SRON</h5>
+                <p class="agenda-item__description">Dr. Ir. G. de Lange</p>
             </div>
         </li>
-        <li class="agenda-item d-flex d-flex align-items-center">
+        <li class="agenda-item d-flex d-flex align-items-end">
             <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">09</h5>
-                <span class="agenda-item__date-month">Jan</span>
+                <h5 class="agenda-item__date-day">
+                    10
+                    <span class="agenda-item__date-month">30</span>
+                </h5>
             </div>
 
             <div class="agenda-item__body">
-                <h5 class="agenda-item__header">Karakterborrel</h5>
-                <p class="agenda-item__description">
-                    Habitasse platea dictumst quisque sagittis, purus sit amet!
-                </p>
+                <h5 class="agenda-item__header">Coffee break</h5>
             </div>
+        </li>
+        <li class="agenda-item d-flex d-flex align-items-end">
+            <a class="btn btn-lg btn-block btn-primary" href="">See more</a>
         </li>
     </ul>
 </div>

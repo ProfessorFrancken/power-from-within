@@ -7,12 +7,6 @@
                 @endif
                 {{ $item['title'] }}
             </a>
-
-            <nav class="navigation__sub-menu nav justify-content-end" >
-                @foreach ($item['subItems'] as $subItem)
-                    <a class="navigation__sub-menu-item nav-link text-nowrap" href="{{ $subItem['url'] }}">{{ $subItem['title'] }}</a>
-                @endforeach
-            </nav>
         </div>
     @endforeach
 </div>
