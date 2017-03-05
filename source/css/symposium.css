@@ -6734,10 +6734,13 @@ a.navigation-sub-list__link:visited {
 }
 
 .registration-cta {
-  display: none;
   z-index: 1;
-  margin-top: 7em;
-  margin-bottom: 9em;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.registration-cta h1 {
+  font-size: 2rem;
 }
 
 .registration-cta__button {
@@ -6746,7 +6749,14 @@ a.navigation-sub-list__link:visited {
   padding-top: 1.5em;
 }
 
+.registration-cta__body {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
+  .registration-cta__body {
+    text-align: right;
+  }
   .header__registration-cta {
     max-height: 455px;
     margin-left: 5em;
@@ -6772,6 +6782,14 @@ a.navigation-sub-list__link:visited {
 }
 
 @media (min-width: 992px) {
+  .registration-cta__body h1 {
+    font-size: 2.5rem;
+  }
+  .registration-cta {
+    z-index: 1;
+    margin-top: 7em;
+    margin-bottom: 9em;
+  }
   .registration-cta {
     display: block;
   }

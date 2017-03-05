@@ -1,6 +1,8 @@
 <style>
  .header__registration-cta::before {
-     background-image: url('./images/symposium/rocket-min.jpg') !important;
+     background-image:
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('./images/symposium/rocket-min.jpg') !important;
  }
 </style>
 <div class="stop-overflow">
