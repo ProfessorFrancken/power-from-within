@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" id="top">
     <div class="container-fluid">
         <div class="row">
             {{-- Note: we add a padding left 0 since the gutter from the row adds a padding --}}

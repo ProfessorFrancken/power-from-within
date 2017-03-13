@@ -7,10 +7,6 @@
         <title>{{ $title }}</title>
         <meta name="description" value="{{ $description }}"/>
 
-        {{--
-        <link rel="stylesheet" href="{{ mix('/dist/css/app.css') }}">
-                                        --}}
-
         <link rel="stylesheet" href="./css/symposium.css">
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>

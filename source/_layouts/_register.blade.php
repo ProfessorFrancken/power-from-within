@@ -121,8 +121,10 @@
             </label>
         </div>
 
-        <hr/>
-
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+
+    <hr/>
+
+    <a href="#top" class="h3 mb-3 d-block text-center">Go to top</a>
 </div>
