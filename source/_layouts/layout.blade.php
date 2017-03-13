@@ -4,9 +4,8 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Franckensymposium - Rocketscience - T.F.V. 'Professor Francken'</title>
-        <meta name="description" value"On the 17th of may physics is launched into space at the Franckensymposium 2017."/>
-
+        <title>{{ $title }}</title>
+        <meta name="description" value="{{ $description }}"/>
 
         {{--
         <link rel="stylesheet" href="{{ mix('/dist/css/app.css') }}">
