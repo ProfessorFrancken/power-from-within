@@ -11,8 +11,8 @@
 
         <div class="row">
             <div class="col-12 col-md-6">
-                <h3 class="speaker-header">Prof. Van der Giessen</h3>
-                <img alt="" src="./images/prof-jan-carel-francken-min.png" class="speaker-portrait rounded-circle float-left"/>
+                <h3 class="speaker-header">Prof. Ir. G. van der Giessen</h3>
+                <img alt="" src="http://www.rug.nl/research/zernike/people/VanderGiessen-1-WEB.jpg" class="speaker-portrait rounded-circle float-left"/>
                 <p class="ribbon__items news-item__body" >
                     Aliquam etiam erat velit, scelerisque in dictum non, consectetur a erat nam at! Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames! Aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae!
                 </p>
@@ -44,7 +44,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-6">
-            <h3 class="speaker-header">Prof. Van der Giessen</h3>
+            <h3 class="speaker-header">Dhr. G. Schilling</h3>
             <img alt="" src="./images/prof-jan-carel-francken-min.png" class="speaker-portrait rounded-circle float-left"/>
             <p class="ribbon__items news-item__body" >
                 Aliquam etiam erat velit, scelerisque in dictum non, consectetur a erat nam at! Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames! Aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae!
@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-12 col-md-6">
-            <h3 class="speaker-header text-right">Dr. Ir. G. de Lange</h3>
+            <h3 class="speaker-header text-right">Dr. Ir. W. Sillekens - ESA</h3>
             <img alt="" src="./images/prof-jan-carel-francken-min.png" class="speaker-portrait rounded-circle float-right"/>
             <p class="ribbon__items news-item__body" >
                 Aliquam etiam erat velit, scelerisque in dictum non, consectetur a erat nam at! Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames! Aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae!
@@ -83,7 +83,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
-                <h3 class="speaker-header">Prof. Van der Giessen</h3>
+                <h3 class="speaker-header">Dr. Ir. C. Lettieri -TUD</h3>
                 <img alt="" src="./images/prof-jan-carel-francken-min.png" class="speaker-portrait rounded-circle float-left"/>
                 <p class="ribbon__items news-item__body" >
                     Aliquam etiam erat velit, scelerisque in dictum non, consectetur a erat nam at! Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames! Aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae!
@@ -97,7 +97,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-                <h3 class="speaker-header text-right">Dr. Ir. G. de Lange</h3>
+                <h3 class="speaker-header text-right">T.B.A.</h3>
                 <img alt="" src="./images/prof-jan-carel-francken-min.png" class="speaker-portrait rounded-circle float-right"/>
                 <p class="ribbon__items news-item__body" >
                     Aliquam etiam erat velit, scelerisque in dictum non, consectetur a erat nam at! Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames! Aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae!

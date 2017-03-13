@@ -9,7 +9,7 @@ return [
     'items' => [
         [
             'url' => '#speakers',
-            'title' => 'Sprekers',
+            'title' => 'Speakers',
             'icon' => '',
         ],
         [

@@ -113,7 +113,7 @@
             <label class="form-check-label">
                 <input type="checkbox" class="form-check-input" name="accept_terms">
                 <p>
-                    I hereby register for the Franckensymposium, "Rocketscience" May 17 2017. By clicking on "submit", I authorize the symposium committee of T.F.V. 'Professor Francken' to deduct the under "Ticket" chosen fee once from the above bank account number.
+                    I hereby register for the Franckensymposium, "Rocket Science" May 17 2017. By clicking on "submit", I authorize the symposium committee of T.F.V. 'Professor Francken' to deduct the under "Ticket" chosen fee once from the above bank account number.
                 </p>
                 <p>
                     A confirmation will be sent to the email address that has been entered above.

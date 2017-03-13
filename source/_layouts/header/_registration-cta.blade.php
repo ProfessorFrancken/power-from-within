@@ -3,7 +3,7 @@
         <h1>
             <strong>
                 17th of May:
-                Rocketscience
+                Rocket Science
             </strong>
             <small>
                 <em>
