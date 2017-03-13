@@ -60,6 +60,7 @@
     height: 100px;
     position: relative;
     margin: 0 1em;
+    object-fit: cover;
 }
 
 @include media-breakpoint-up(lg) {

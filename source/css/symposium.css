@@ -6041,6 +6041,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   height: 100px;
   position: relative;
   margin: 0 1em;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 992px) {
