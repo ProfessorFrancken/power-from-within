@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col about-francken">
             <div class="about-francken__j-c-francken">
-                <img alt="" src="./images/symposium/logo.jpg" class="prof-c-j-francken-portrait rounded-circle" />
+                <img alt="" src="./images/symposium/logo.png" class="prof-c-j-francken-portrait rounded-circle" />
             </div>
 
             <h2 class="section-header mt-4 d-inline-block">

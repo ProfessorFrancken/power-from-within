@@ -2,6 +2,7 @@
                                 background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                                     url(./images/symposium/earth-min.jpg);
                                 background-size: cover;
+                                background-position: center;
                                 color: #fafafa;
                                 ">
     <div class="container">
@@ -78,6 +79,7 @@
                                 background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                                     url(./images/symposium/astronaut-background-min.jpg);
                                 background-size: cover;
+                                background-position: center;
                                 color: #fafafa;
                                 ">
     <div class="container">
