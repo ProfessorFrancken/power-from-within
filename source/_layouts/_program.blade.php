@@ -1,4 +1,4 @@
-<div class="ribbon my-5" id="program">
+<div class="ribbon mt-5" id="program">
     <div class="container">
         <h2 class="ribbon__header">
             Program
