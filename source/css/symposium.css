@@ -6500,7 +6500,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .ribbon {
-  padding: 4em 0;
+  padding: 4em 0 1em;
   background-color: #173249;
 }
 
@@ -7062,9 +7062,18 @@ a.navigation-sub-list__link:visited {
 }
 
 .registration-cta__button {
-  border-left: 3px white solid;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+  .registration-cta__button {
+    margin-top: 0;
+    border-left: 3px white solid;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    text-align: left;
+  }
 }
 
 .registration-cta__body {

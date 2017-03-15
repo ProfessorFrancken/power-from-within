@@ -188,5 +188,5 @@
         </div>
     </div>
 
-    <a href="#top" class="h3 mb-3 d-block text-center" style="color: white">Go to top</a>
+    <a href="#top" class="h3 my-5 d-block text-center" style="color: white">Go to top</a>
 </div>

@@ -63,9 +63,18 @@ $cta-height: 455px;
 }
 
 .registration-cta__button {
-    border-left: 3px white solid;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+@include media-breakpoint-up(md) {
+    .registration-cta__button {
+        margin-top: 0;
+        border-left: 3px white solid;
+        padding-bottom: 1.5em;
+        padding-top: 1.5em;
+        text-align: left;
+    }
 }
 
 .registration-cta__body {
