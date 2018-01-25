@@ -2,7 +2,12 @@
  .header__registration-cta::before {
      background-image:
         linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('./images/symposium/rocket-min.jpg') !important;
+        url('./images/{{ $header_image }}') !important;
+ }
+
+ .header__registration-cta::before,
+ .header__registration-cta::after {
+    background-position-y: -100px;
  }
 </style>
 <div class="stop-overflow">

@@ -6,7 +6,7 @@
             </div>
 
             <h2 class="section-header mt-4 d-inline-block">
-                Franckensymposium 2017
+                Franckensymposium 2018
             </h2>
 
             <p>

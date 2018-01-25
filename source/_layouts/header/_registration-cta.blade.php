@@ -2,12 +2,15 @@
     <div class="registration-cta__body col-md-6 offset-md-3 align-self-center">
         <h1>
             <strong>
-                17th of May:
-                Rocket Science
+                {{ $page->date->format('j') }}th 
+                of 
+                {{ $page->date->format('M')}}
+                {{ $page->symposium_title }}
+                :
             </strong>
             <small>
                 <em>
-                Launching physics into space
+                    {{ $page->symposium_sub_title }}
                 </em>
             </small>
         </h1>
@@ -15,4 +18,8 @@
     <div class="col-md-1 registration-cta__button">
         <a class="btn btn-primary" href="#register">Register</a>
     </div>
+
+    @slot('header_image')
+        {{ $header_image }}
+    @endslot
 @endcomponent

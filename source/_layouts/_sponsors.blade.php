@@ -22,6 +22,6 @@
     </div>
 
     <p>
-        &copy; Copyright 2017
+        &copy; Copyright 2018
     </p>
 </div>

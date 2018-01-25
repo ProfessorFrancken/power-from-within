@@ -4,6 +4,12 @@ $secondary-color-dark: darken($secondary-color, 10%);
 $secondary-color: #c4cdd4;
 $cta-image: './images/symposium/rocket-min.jpg';
 
+// #173249
+// #0accd7
+
+// $secondary-color: #173249;
+// $primary-color: #5a7286;
+
 @import "app";
 
 .speaker-header {

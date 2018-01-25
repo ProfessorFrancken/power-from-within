@@ -1,60 +1,27 @@
-<div class="agenda">
-    <h3 class="section-header agenda-header">
-        Program
-    </h3>
-    <ul class="agenda-list list-unstyled">
-        <li class="agenda-item d-flex d-flex align-items-end">
-            <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">
-                    09
-                    <span class="agenda-item__date-month">00</span>
-                </h5>
-            </div>
+<div class="agenda p-0">
+	<div class="agenda-body" style="padding: 3em; padding-bottom: 0">
+		<a href="https://www.openstreetmap.org/?mlat=53.22203&amp;mlon=6.56388#map=18/53.22203/6.56388">
+			<h3 class="section-header agenda-header">
+				<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+				Het Heerenhuis
+			</h3>
+		</a>
+	</div>
 
-            <div class="agenda-item__body">
-                <h5 class="agenda-item__header">Registration and Coffee</h5>
-            </div>
-        </li>
-        <li class="agenda-item d-flex d-flex align-items-end">
-            <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">
-                    09
-                    <span class="agenda-item__date-month">30</span>
-                </h5>
-            </div>
+	<div>
+		<iframe width="425" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=6.560339927673341%2C53.22058479205571%2C6.567420959472657%2C53.22347216544705&amp;layer=mapnik&amp;marker=53.22202850308373%2C6.563880443572998"
+		 style="max-width: 100%; border: 2px solid #eee; border-left: none; border-right: none">
+		</iframe>
+	</div>
 
-            <div class="agenda-item__body">
-                <h5 class="agenda-item__header">Opening</h5>
-                <p class="agenda-item__description">Prof. Van der Giessen</p>
-            </div>
-        </li>
-        <li class="agenda-item d-flex d-flex align-items-end">
-            <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">
-                    09
-                    <span class="agenda-item__date-month">45</span>
-                </h5>
-            </div>
-
-            <div class="agenda-item__body">
-                <h5 class="agenda-item__header">SRON</h5>
-                <p class="agenda-item__description">Dr. Ir. G. de Lange</p>
-            </div>
-        </li>
-        <li class="agenda-item d-flex d-flex align-items-end">
-            <div class="agenda-item__date align-self-start">
-                <h5 class="agenda-item__date-day">
-                    10
-                    <span class="agenda-item__date-month">30</span>
-                </h5>
-            </div>
-
-            <div class="agenda-item__body">
-                <h5 class="agenda-item__header">Coffee break</h5>
-            </div>
-        </li>
-        <li class="agenda-item d-flex d-flex align-items-end">
-            <a class="btn btn-lg btn-block btn-primary" href="#program">See more</a>
-        </li>
-    </ul>
+	<div class="agenda-body" style="padding: 3em; padding-bottom: 2em;">
+		<h3 class="agenda-header">
+			<i class="fa fa-calendar mr-2" aria-hidden="true"></i>
+			Wednesday May 2nd
+		</h3>
+		<h3 class="agenda-header">
+			<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+			09:00 - 18:00
+		</h3>
+	</div>
 </div>
