@@ -24,12 +24,12 @@
 
     --}}
     <ul class="navigation-list clearfix" id="main-menu">
-        @foreach ($items as $item)
+        @foreach ($page->items as $item)
             @include('_layouts.navigation._mobile-navigation-item', [
                 'url' => $item['url'],
                 'title' => $item['title'],
                 'icon' => $item['icon'],
-                'subItems' => $item['subItems'],
+                'subItems' => $item['subItems'] ?? [],
             ])
         @endforeach
     </ul>
