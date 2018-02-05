@@ -38,13 +38,14 @@ $cta-height: 455px;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
+    background-position-x: 50%;
 
     position: absolute;
     width: 52%; // 52 looked just about right :)
     height: 100%;
     width: 100%;
 
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 
@@ -70,6 +71,8 @@ $cta-height: 455px;
     z-index: 1;
     margin-top: 3em;
     margin-bottom: 5em;
+
+    text-shadow: 0 0px 1px rgba(0, 0, 0, 0.2);
 
     h1 {
         font-size: 2rem;

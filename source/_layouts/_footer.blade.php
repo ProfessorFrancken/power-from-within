@@ -1,7 +1,7 @@
 <footer class="">
     <div class="container-fluid">
         <div class="footer__contact-background footer__contact row">
-            <div class="col-12 col-sm-5 col-md-3 offset-md-1 my-3 order-2" id="contact">
+            <div class="col-12 col-sm-5 col-md-3 offset-md-1 my-3 mt-4 order-2" id="contact">
                 <h4 class="footer__header h5 mb-3">Adress</h4>
 
                 <address class="footer__body">
@@ -11,7 +11,7 @@
                 </address>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 my-3 order-3">
+            <div class="col-12 col-sm-5 col-md-4 my-3 mt-4 order-3">
                 <h4 class="footer__header h5 mb-3">Contact</h4>
 
                 <div class="footer__body">

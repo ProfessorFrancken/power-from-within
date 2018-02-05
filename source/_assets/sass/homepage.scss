@@ -89,18 +89,6 @@
     margin-right: 2em;
 }
 
-.about-francken__j-c-francken:after  {
-    content: '';
-    position: absolute;
-    display: block;
-    right: -20px;
-    bottom: 0px;
-    width: 55px;
-    height: 55px;
-    border: 2px solid var(--secondary);
-    border-radius: 50%;
-}
-
 .prof-c-j-francken-portrait {
     border: thin solid var(--primary);
     width: 100px;
@@ -112,13 +100,6 @@
     .about-francken__j-c-francken {
         margin-right: 1em;
         margin-top: -3em;
-    }
-
-    .about-francken__j-c-francken:after  {
-        right: -30px;
-        bottom: 5px;
-        width: 100px;
-        height: 100px;
     }
 
     .prof-c-j-francken-portrait {

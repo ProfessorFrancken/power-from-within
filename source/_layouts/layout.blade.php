@@ -41,7 +41,7 @@
          }
 
          .header__registration-cta::before {
-             background-position-y: -125px;
+             /* background-position-y: -125px; */
          }
         </style>
     </head>
