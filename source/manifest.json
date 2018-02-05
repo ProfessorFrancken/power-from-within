@@ -1,5 +1,5 @@
 {
-    "name": "Rocket Science",
+    "name": "Power from within",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -7,7 +7,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#010125",
-    "background_color": "#010125",
+    "theme_color": "#c56573",
+    "background_color": "#c56573",
     "display": "standalone"
 }
