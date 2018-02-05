@@ -4,12 +4,10 @@
                           background-size: cover;
                           background-position: center;"
      class="py-5">
-    <fieldset class="card card-body mx-auto" style="max-width: 750px">
-        <legend>
-            <h2 class="section-header">
-                Register
-            </h2>
-        </legend>
+    <div class="card card-body mx-auto" style="max-width: 750px">
+        <h2 class="section-header">
+            Register
+        </h2>
         <form action="https://formspree.io/symposium@professorfrancken.nl" method="POST" >
             <input type="hidden" name="_subject" value="Nieuwe registratie symposium" />
 
@@ -115,5 +113,5 @@
 
             <button type="submit" class="btn btn-lg btn-block btn-primary">Submit</button>
         </form>
-    </fieldset>
+    </div>
 </div>
