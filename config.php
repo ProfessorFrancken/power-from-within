@@ -87,5 +87,15 @@ return [
             'title' => 'Speaker',
             'subTitle' => '',
         ],
+        [
+            'time' => '16:15',
+            'title' => 'Speaker',
+            'subTitle' => '',
+        ],
+        [
+            'time' => '16:45',
+            'title' => 'Speaker',
+            'subTitle' => '',
+        ],
     ]
 ];

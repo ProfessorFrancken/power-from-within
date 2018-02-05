@@ -9881,3 +9881,15 @@ a.navigation-sub-list__link:visited {
 body {
   color: var(--color);
 }
+
+.programme-list {
+  -webkit-column-count: 1;
+          column-count: 1;
+}
+
+@media (min-width: 992px) {
+  .programme-list {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
