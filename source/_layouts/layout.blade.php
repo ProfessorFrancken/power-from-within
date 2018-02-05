@@ -26,7 +26,7 @@
                 af465b
               */
 
-             --secondary: #edede;
+             --secondary: #fafafa;
              --secondary-dark: #c56573;
              --secondary-color: #c56573;
 

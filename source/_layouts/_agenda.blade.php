@@ -39,7 +39,7 @@
 		</h3>
     </div>
 
-    <button class="agenda-btn btn btn-lg btn-primary rounded-bottom btn-block">
+    <button class="agenda-btn btn btn-lg btn-primary rounded-0 btn-block">
         Register
     </button>
 </div>

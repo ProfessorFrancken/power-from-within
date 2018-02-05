@@ -17,7 +17,7 @@
                 Etiam sit amet nisl purus, in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci.
             </p>
         </div>
-        <aside class="col-lg-5 order-first order-lg-last flex-first flex-lg-last">
+        <aside class="col-lg-6 col-xl-5 order-first order-lg-last flex-first flex-lg-last">
             <div class="agenda-wrapper">
                 @include("_layouts._agenda")
             </div>

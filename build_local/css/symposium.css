@@ -9691,6 +9691,10 @@ a.navigation-sub-list__link:visited {
   }
 }
 
+:root {
+  --angle: 15deg;
+}
+
 .stop-overflow {
   width: 100%;
   overflow: hidden;
@@ -9769,15 +9773,15 @@ a.navigation-sub-list__link:visited {
     max-height: 455px;
     margin-left: 5em;
     margin-top: 0;
-    -webkit-transform: skew(15deg);
-            transform: skew(15deg);
+    -webkit-transform: skew(var(--angle));
+            transform: skew(var(--angle));
     -webkit-transform-origin: top left;
             transform-origin: top left;
     border-radius: 0px 0px 0px 20px;
   }
   .header__registration-cta > *, .header__registration-cta::before, .header__registration-cta::after {
-    -webkit-transform: skewX(-15deg);
-            transform: skewX(-15deg);
+    -webkit-transform: skewX(calc(-1 * var(--angle)));
+            transform: skewX(calc(-1 * var(--angle)));
     -webkit-transform-origin: top left;
             transform-origin: top left;
   }
@@ -9864,6 +9868,36 @@ a.navigation-sub-list__link:visited {
 
 .footer__contact-background {
   background: var(--secondary);
+}
+
+@media (max-width: 575.98px) {
+  body {
+    background-color: red !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    background-color: blue !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background-color: yellow !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    background-color: green !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: purple !important;
+  }
 }
 
 :root {
