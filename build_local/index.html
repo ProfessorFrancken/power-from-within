@@ -21,18 +21,28 @@
 
         <style>
                 :root {
-                    --primary: #173249;
-                    --primary-dark: #112536;
+                    --color: #001744;
+
+                    --primary: #c56573;
+                    --primary-dark: #c56573;
                     --primary-color: white;
 
-                    --secondary: #6c757d;
-                    --secondary-dark: #b3b2b2;
+                    /*
+                       af465b
+                    */
+
+                    --secondary: #edede;
+                    --secondary-dark: #c56573;
                     --secondary-color: white;
 
-                    --header-image-background: #c4cdd4;
-                    --header-image-color: #c4cdd4;
+                    --header-image-background: #efcdc8;
+                    --header-image-color: #c56573;
                     --header-image: url('/images/nuclear-power-plants.jpg');
                 }
+
+         .header__registration-cta::before {
+             background-position-y: -125px;
+         }
         </style>
     </head>
     <body>
@@ -122,24 +132,20 @@
         </div>
     </div>
 
-        <style>
-    :root {
-        --header-image-background: var(--primary);
-        --header-image: url('/images/nuclear-power-plants.jpg');
-    }
-</style>
-<div class="stop-overflow">
+        <div class="stop-overflow">
     <div class="header__registration-cta">
         <div class="registration-cta container h-100">
             <div class="row align-items-center h-100">
                 <div class="registration-cta__body col-md-6 offset-md-3 align-self-center">
         <h1>
             <strong>
-                2th 
-                of 
-                May
+                <small>
+                2th
+                of
+                May<br />
+                </small>
                 Power from within
-                :
+                <br />
             </strong>
             <small>
                 <em>
@@ -149,7 +155,7 @@
         </h1>
     </div>
     <div class="col-md-1 registration-cta__button">
-        <a class="btn btn-primary" href="#register">Register</a>
+        <a class="btn btn-lg btn-primary" href="#register">Register</a>
     </div>
             </div>
         </div>
@@ -161,7 +167,7 @@
     <div class="row">
         <div class="col about-francken">
             <div class="about-francken__j-c-francken">
-                <img alt="" src="./images/symposium/logo.png" class="prof-c-j-francken-portrait rounded-circle" />
+                <img alt="" src="./images/FranckenSymposium2018Logo-klein.png" class="prof-c-j-francken-portrait rounded-circle" />
             </div>
 
             <h2 class="section-header mt-4 d-inline-block">
@@ -176,7 +182,7 @@
                 Etiam sit amet nisl purus, in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci.
             </p>
         </div>
-        <aside class="col-md-5 order-first order-md-last flex-first flex-md-last">
+        <aside class="col-lg-5 order-first order-lg-last flex-first flex-lg-last">
             <div class="agenda-wrapper">
                 <div class="agenda p-0">
 	<div class="agenda-body" style="padding: 3em; padding-bottom: 0">
@@ -189,8 +195,22 @@
 	</div>
 
 	<div>
-		<iframe width="425" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=6.560339927673341%2C53.22058479205571%2C6.567420959472657%2C53.22347216544705&amp;layer=mapnik&amp;marker=53.22202850308373%2C6.563880443572998"
-		 style="max-width: 100%; border: 2px solid #eee; border-left: none; border-right: none">
+		<iframe
+        width="425"
+        height="250"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="http://www.openstreetmap.org/export/embed.html?bbox=6.560339927673341%2C53.22058479205571%2C6.567420959472657%2C53.22347216544705&amp;layer=mapnik&amp;marker=53.22202850308373%2C6.563880443572998"
+		    style="
+               max-width: 100%;
+               border: 2px solid #eee;
+               border-left: none;
+               border-right: none;
+               width: 100%;
+               "
+    >
 		</iframe>
 	</div>
 
@@ -204,11 +224,12 @@
 			09:00 - 18:00
 		</h3>
     </div>
-    
+
     <button class="agenda-btn btn btn-lg btn-primary rounded-bottom btn-block">
         Register
     </button>
-</div>            </div>
+</div>
+            </div>
         </aside>
     </div>
 

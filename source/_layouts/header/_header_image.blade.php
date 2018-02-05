@@ -1,9 +1,3 @@
-<style>
-    :root {
-        --header-image-background: var(--primary);
-        --header-image: url('/images/{{ $header_image }}');
-    }
-</style>
 <div class="stop-overflow">
     <div class="header__registration-cta">
         <div class="registration-cta container h-100">

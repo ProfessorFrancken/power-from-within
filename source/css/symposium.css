@@ -67,7 +67,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #001744;
+  color: #333;
   text-align: left;
   background-color: #FAFAFA;
 }
@@ -3154,7 +3154,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #001744;
+  color: #333;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -5174,7 +5174,7 @@ tbody.collapse.show {
 }
 
 .list-group-item-action:active {
-  color: #001744;
+  color: #333;
   background-color: #e9ecef;
 }
 
@@ -5836,7 +5836,7 @@ button.close {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #001744;
+  color: #333;
 }
 
 .carousel {
@@ -9111,6 +9111,9 @@ a.text-dark:hover, a.text-dark:focus {
 .btn.btn-primary {
   font-family: "PT Sans", sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
+  background-color: var(--primary);
+  border-color: var(--primary-dark);
+  color: var(--primary-color);
 }
 
 .btn.btn-inverse {
@@ -9825,8 +9828,8 @@ a.navigation-sub-list__link:visited {
 }
 
 .footer__header {
-  color: white;
-  font-weight: bold;
+  color: var(--primary);
+  font-weight: bolder;
   font-size: 1.1em;
 }
 
@@ -9847,7 +9850,7 @@ a.navigation-sub-list__link:visited {
 }
 
 .footer__body i {
-  color: white;
+  color: var(--primary);
   margin-right: .25em;
   width: 20px;
 }

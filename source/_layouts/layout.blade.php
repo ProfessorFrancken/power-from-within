@@ -15,21 +15,29 @@
 
 
         <style>
-                :root {
-                    --color: #001744;
+         :root {
+             --color: #001744;
 
-                    --primary: #173249;
-                    --primary-dark: #112536;
-                    --primary-color: white;
+             --primary: #c56573;
+             --primary-dark: #c56573;
+             --primary-color: white;
 
-                    --secondary: #6c757d;
-                    --secondary-dark: #b3b2b2;
-                    --secondary-color: white;
+             /*
+                af465b
+              */
 
-                    --header-image-background: #c4cdd4;
-                    --header-image-color: #c4cdd4;
-                    --header-image: url('/images/nuclear-power-plants.jpg');
-                }
+             --secondary: #edede;
+             --secondary-dark: #c56573;
+             --secondary-color: white;
+
+             --header-image-background: #efcdc8;
+             --header-image-color: #c56573;
+             --header-image: url('/images/nuclear-power-plants.jpg');
+         }
+
+         .header__registration-cta::before {
+             background-position-y: -125px;
+         }
         </style>
     </head>
     <body>

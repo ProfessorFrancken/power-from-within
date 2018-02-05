@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col about-francken">
             <div class="about-francken__j-c-francken">
-                <img alt="" src="./images/symposium/logo.png" class="prof-c-j-francken-portrait rounded-circle" />
+                <img alt="" src="./images/FranckenSymposium2018Logo-klein.png" class="prof-c-j-francken-portrait rounded-circle" />
             </div>
 
             <h2 class="section-header mt-4 d-inline-block">
@@ -17,7 +17,7 @@
                 Etiam sit amet nisl purus, in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci.
             </p>
         </div>
-        <aside class="col-md-5 order-first order-md-last flex-first flex-md-last">
+        <aside class="col-lg-5 order-first order-lg-last flex-first flex-lg-last">
             <div class="agenda-wrapper">
                 @include("_layouts._agenda")
             </div>

@@ -23,8 +23,8 @@
 }
 
 .footer__header {
-    color: white;
-    font-weight: bold;
+    color: var(--primary);
+    font-weight: bolder;
     font-size: 1.1em;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .footer__body i {
-    color: white;
+    color: var(--primary);
     margin-right: .25em;
     width: 20px;
 }
