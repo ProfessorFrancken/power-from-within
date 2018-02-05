@@ -8,11 +8,15 @@ $cta-height: 455px;
     overflow: hidden;
 }
 
+// .registration-title {
+// }
+
 .header__registration-cta {
     width: 100%;
     display: inline-block;
 
-    background: $secondary-color;
+    background: var(--header-image-background);
+    color: var(--header-image-color);
 
     position: relative;
 
@@ -25,8 +29,8 @@ $cta-height: 455px;
 .header__registration-cta::before {
     content: '';
 
-    background-color: $secondary-color;
-    background-image: url($cta-image);
+    background-color: var(--header-image-background);
+    background-image: var(--header-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -42,8 +46,14 @@ $cta-height: 455px;
 
 .header__registration-cta::after {
     content: '';
+    z-index: 0;
 
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 85%, $secondary-color 100%);
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 85%, 
+        var(--header-image-background) 100%
+    );
 
     position: absolute;
     left: 0;
@@ -63,6 +73,7 @@ $cta-height: 455px;
 }
 
 .registration-cta__button {
+    color: var(--header-image-color);
     text-align: center;
     margin-top: 1em;
 }
@@ -70,7 +81,7 @@ $cta-height: 455px;
 @include media-breakpoint-up(md) {
     .registration-cta__button {
         margin-top: 0;
-        border-left: 3px white solid;
+        border-left: 3px var(--header-image-color) solid;
         padding-bottom: 1.5em;
         padding-top: 1.5em;
         text-align: left;

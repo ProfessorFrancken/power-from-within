@@ -8,7 +8,7 @@
 }
 
 .link-to-all:hover, .link-to-all:focus {
-    color: $secondary-color;
+    color: var(--secondary);
 }
 
 .link-to-all:before {
@@ -31,11 +31,11 @@
 
 .link-to-all-dark {
     @extend .link-to-all;
-    color: $secondary-color-dark;
+    color: var(--secondary-dark);
 }
 
 .link-to-all-dark:hover, .link-to-all-dark:focus {
-    color: $primary-color;
+    color: var(--primary);
 }
 
 .btn.btn-primary {
@@ -46,6 +46,6 @@
 .btn.btn-inverse {
     font-family: $font-family-sans-serif;
     font-size: 18px;
-    background-color: $secondary-color;
+    background-color: var(--secondary);
     color: white;
 }

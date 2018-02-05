@@ -14,7 +14,7 @@
 		</iframe>
 	</div>
 
-	<div class="agenda-body" style="padding: 3em; padding-bottom: 2em;">
+	<div class="agenda-body" style="padding: 3em; padding-bottom: 1em;">
 		<h3 class="agenda-header">
 			<i class="fa fa-calendar mr-2" aria-hidden="true"></i>
 			Wednesday May 2nd
@@ -23,5 +23,9 @@
 			<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
 			09:00 - 18:00
 		</h3>
-	</div>
+    </div>
+    
+    <button class="agenda-btn btn btn-lg btn-primary rounded-bottom btn-block">
+        Register
+    </button>
 </div>

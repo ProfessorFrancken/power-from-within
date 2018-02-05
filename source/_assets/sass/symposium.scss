@@ -1,9 +1,14 @@
+$primary-color: #173249 !default;
+
 $secondary-color: #001f3e;
 $secondary-color: #ccc;
+//$secondary-color-dark: darken(var(--secondary), 10%);
 $secondary-color-dark: darken($secondary-color, 10%);
 $secondary-color: #c4cdd4;
 $cta-image: './images/symposium/rocket-min.jpg';
 
+$primary-color-dark: darken($primary-color, 5%);
+$primary-color-dark: #011842 !default;
 // #173249
 // #0accd7
 
@@ -12,10 +17,33 @@ $cta-image: './images/symposium/rocket-min.jpg';
 
 @import "app";
 
+:root {
+    --primary: $primary-color;
+    --primary-dark: $primary-color-dark;
+    --primary-color: white;
+
+    --secondary: $secondary-color;
+    --secondary-dark: $secondary-color-dark;
+    --secondary-color: white;
+
+
+    --header-image-background: $secondary-color;
+    --header-image-color: $secondary-color;
+    --header-image: url($cta-image);
+}
+
 .speaker-header {
     margin-bottom: 1em;
 }
 
 .ribbon .ribbon__items.news-item__body {
     color: #c6cdd2;
+}
+
+.registration-title {
+    color: var(--primary);
+}
+
+body {
+    color: var(--color);
 }

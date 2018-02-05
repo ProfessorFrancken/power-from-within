@@ -12,6 +12,25 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
         @include('_layouts._favicon')
+
+
+        <style>
+                :root {
+                    --color: #001744;
+
+                    --primary: #173249;
+                    --primary-dark: #112536;
+                    --primary-color: white;
+
+                    --secondary: #6c757d;
+                    --secondary-dark: #b3b2b2;
+                    --secondary-color: white;
+
+                    --header-image-background: #c4cdd4;
+                    --header-image-color: #c4cdd4;
+                    --header-image: url('/images/nuclear-power-plants.jpg');
+                }
+        </style>
     </head>
     <body>
         @include('_layouts._header')

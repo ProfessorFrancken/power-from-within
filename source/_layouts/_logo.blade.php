@@ -1,5 +1,6 @@
 <div
     class="skew-md--top-right header__logo d-flex justify-content-between justify-content-md-end"
+     style="box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25)"
 >
     <a class="header__title-link align-items-center align-middle d-inline-flex" href="/">
         <img
@@ -8,8 +9,8 @@
             class="img-fluid"
         />
         <span class="header__title text-left">
-            T.F.V.<br class="hidden-md-down"/>
-            'Professor<br class="hidden-md-down"/>
+            T.F.V.<br class="d-none d-md-inline"/>
+            'Professor<br class="d-none d-md-inline"/>
             Francken'
         </span>
     </a>

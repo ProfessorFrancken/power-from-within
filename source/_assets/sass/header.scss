@@ -6,9 +6,9 @@ $top-stroke-width: 6px;
 }
 
 .header__logo {
-    color: white;
+    color: var(--primary-color);
+    background-color: var(--primary);
     padding: 1em;
-    background-color: $primary-color;
     width: 100%;
 
     img {
@@ -45,7 +45,7 @@ $top-stroke-width: 6px;
 
 .navigation__menu {
     font-family: $menu-navigation-font;
-    color: $primary-color;
+    color: var(--primary);
     margin-bottom: 1em;
     margin-top: 3em;
 
@@ -56,7 +56,7 @@ $top-stroke-width: 6px;
 .navigation__menu-item {
     font-weight: 400;
     font-size: 1.2rem;
-    color: $primary-color;
+    color: var(--primary);
 }
 
 .navigation__sub-menu {
@@ -91,7 +91,7 @@ $top-stroke-width: 6px;
 }
 
 .login-link {
-    background: $secondary-color;
+    background: var(--secondary);
     color: white;
     border-radius: 4px;
 }
@@ -120,7 +120,7 @@ $top-stroke-width: 6px;
 		bottom: 100%;
 		left: 0;
     right: 0;
-		background: $primary-color;
+		background: var(--primary);
 }
 
 .navigation-list__item {
@@ -133,22 +133,22 @@ $top-stroke-width: 6px;
     &:focus,
     &:hover,
     &:active {
-        background: darken($primary-color, 5%);
+        background: var(--primary-dark);
     }
 }
 
 /* Color the active menu item */
 .navigation-list__item--active {
-    background: $primary-color;
-	  color: #FFF;
+    background: var(--primary);
+    color: var(--parimay-color);
 
     /* Removes the caret below the active item */
     &:after {
-		    display: none;
+        display: none;
     }
 
     a:link, a:visited {
-        color: #FFF;
+        color: var(--parimay-color);
     }
 }
 
@@ -156,7 +156,7 @@ $top-stroke-width: 6px;
      of a selected caret to be somewhat lighter than the item's background */
 .navigation-list__item--active {
     &.navigation-list__item--active-sub-list .navigation-sub-list__toggle {
-    	  background: $primary-color;
+    	  background: var(--primary);
     }
 }
 
@@ -180,19 +180,14 @@ $top-stroke-width: 6px;
 }
 
 .navigation-list__link {
-    color: #31255e;
+    color: var(--primary-color);
 	  text-decoration: none;
 	  padding: 0 .8em;
 	  display: inline-block;
 	  line-height: 90px;
 
-    &:hover {
-        color: #6c5ea2;
-		    text-decoration: none;
-    }
-
     &:link, &:visited {
-		    color: #FFF;
+        color: var(--primary-color);
 		    border: 0;
 		    display: block;
 		    float: left;
@@ -267,14 +262,14 @@ a.navigation-sub-list__link:visited {
 }
 
 .hamburger-menu {
-		display: block;
-	  background: $primary-color;
+    display: block;
+    background: var(--primary);
     padding: 1em;
-	  border: 0;
-	  float: right;
+    border: 0;
+    float: right;
 
     &:hover {
-        background: $primary-color;
+        background: var(--primary);
     }
 
     .hamburger-menu__line {

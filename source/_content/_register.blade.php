@@ -4,7 +4,7 @@
                           background-size: cover;
                           background-position: center;"
      class="mb-5 py-5">
-    <fieldset class="card card-block mx-auto" style="max-width: 750px">
+    <fieldset class="card card-body mx-auto" style="max-width: 750px">
         <legend>
             <h2 class="section-header">
                 Register
@@ -82,20 +82,20 @@
                 <legend>Payment method</legend>
 
                 <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="paymentMethod" id="cashPaymentCheckbox" value="cash">
+                    <input type="radio" class="form-check-input" name="paymentMethod" id="cashPaymentCheckbox" value="cash">
+                    <label class="form-check-label" for="cashPaymentCheckbox">
                         Cash
                     </label>
                 </div>
                 <div class="form-check">
-                    <label class="form-check-label">
                         <input type="radio" class="form-check-input" name="paymentMethod" id="ibanPaymentCheckbox" value="incasso" checked>
+                    <label class="form-check-label" for="ibanPaymentCheckbox">
                         Pre-authorized payment
                     </label>
                 </div>
 
-                <div class="form-group">
-                    <label for="iban" class="text-muted">Iban (in case of pre-authorized payment)</label>
+                <div class="form-group mt-2">
+                    <label for="iban" class="form-check-label text-muted" for="iban">Iban (in case of pre-authorized payment)</label>
                     <input type="text" class="form-control" id="iban" placeholder="iban" name="iban">
                 </div>
             </fieldset>

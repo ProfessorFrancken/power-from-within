@@ -6,5 +6,4 @@ background-repeat:no-repeat;
 background-position: center center;
             height: 600px;
             ">
-
 </div>

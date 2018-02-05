@@ -1,7 +1,7 @@
 .footer__logo {
     background: none;
     color: white;
-    background-color: $primary-color;
+    background-color: var(--primary);
     width: 100%;
     padding: 2em 1em;
 }
@@ -30,7 +30,7 @@
 
 .footer__body {
     white-space: nowrap;
-    color: $primary-color;
+    color: var(--primary);
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .footer__body a {
-    color: $primary-color;
+    color: var(--primary);
 }
 
 .footer__body i {
@@ -58,5 +58,5 @@
 }
 
 .footer__contact-background {
-    background: $secondary-color;
+    background: var(--secondary);
 }

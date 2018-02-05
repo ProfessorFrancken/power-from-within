@@ -2,8 +2,8 @@
 //
 //
 
-$news-background: $primary-color;
-$news-color: $secondary-color;
+$news-background: var(--primary);
+$news-color: var(--secondary);
 $news-title-color: white;
 
 .news {
@@ -51,7 +51,7 @@ $news-title-color: white;
     font-weight: bold;
 }
 .news-item__date {
-    color: $primary-color;
+    color: var(--primary);
     background: white;
 }
 
@@ -68,7 +68,7 @@ $news-title-color: white;
 }
 
 
-$ribbon-background-color: $primary-color;
+$ribbon-background-color: var(--primary);
 $ribbon-light-background-color: white;
 
 .ribbon {
@@ -82,10 +82,10 @@ $ribbon-light-background-color: white;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
 
     .ribbon__header {
-        color: $primary-color;
+        color: var(--primary);
     }
     .ribbon__header:before {
-        border-color: $primary-color;
+        border-color: var(--primary);
     }
 }
 

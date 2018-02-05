@@ -17,15 +17,33 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#010125">
 <meta name="theme-color" content="#010125">
+
+
+        <style>
+                :root {
+                    --primary: #173249;
+                    --primary-dark: #112536;
+                    --primary-color: white;
+
+                    --secondary: #6c757d;
+                    --secondary-dark: #b3b2b2;
+                    --secondary-color: white;
+
+                    --header-image-background: #c4cdd4;
+                    --header-image-color: #c4cdd4;
+                    --header-image: url('/images/nuclear-power-plants.jpg');
+                }
+        </style>
     </head>
     <body>
         <header class="header" id="top">
     <div class="container-fluid">
         <div class="row">
             
-            <div class="col-12 col-md-4 col-lg-5 pl-0 pr-0">
+            <div class="col-12 col-md-4 col-lg-5 pl-0 pr-0" style="z-index: 1">
                 <div
     class="skew-md--top-right header__logo d-flex justify-content-between justify-content-md-end"
+     style="box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25)"
 >
     <a class="header__title-link align-items-center align-middle d-inline-flex" href="/">
         <img
@@ -34,8 +52,8 @@
             class="img-fluid"
         />
         <span class="header__title text-left">
-            T.F.V.<br class="hidden-md-down"/>
-            'Professor<br class="hidden-md-down"/>
+            T.F.V.<br class="d-none d-md-inline"/>
+            'Professor<br class="d-none d-md-inline"/>
             Francken'
         </span>
     </a>
@@ -77,7 +95,7 @@
             </ul>
 </div>
             </div>
-            <div class="col col-sm-4 col-md-8 col-lg-7 hidden-sm-down ">
+            <div class="col col-sm-4 col-md-8 col-lg-7 d-none d-md-block">
                 <div class="navigation__menu nav">
             <div class="navigation__hoverable">
             <a class="navigation__menu-item nav-link active text-nowrap " href="#speakers">
@@ -105,16 +123,10 @@
     </div>
 
         <style>
- .header__registration-cta::before {
-     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('./images/nuclear-power-plants.jpg') !important;
- }
-
- .header__registration-cta::before,
- .header__registration-cta::after {
-    background-position-y: -100px;
- }
+    :root {
+        --header-image-background: var(--primary);
+        --header-image: url('/images/nuclear-power-plants.jpg');
+    }
 </style>
 <div class="stop-overflow">
     <div class="header__registration-cta">
@@ -164,7 +176,7 @@
                 Etiam sit amet nisl purus, in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci.
             </p>
         </div>
-        <aside class="col-md-5 flex-first flex-md-last">
+        <aside class="col-md-5 order-first order-md-last flex-first flex-md-last">
             <div class="agenda-wrapper">
                 <div class="agenda p-0">
 	<div class="agenda-body" style="padding: 3em; padding-bottom: 0">
@@ -182,7 +194,7 @@
 		</iframe>
 	</div>
 
-	<div class="agenda-body" style="padding: 3em; padding-bottom: 2em;">
+	<div class="agenda-body" style="padding: 3em; padding-bottom: 1em;">
 		<h3 class="agenda-header">
 			<i class="fa fa-calendar mr-2" aria-hidden="true"></i>
 			Wednesday May 2nd
@@ -191,7 +203,11 @@
 			<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
 			09:00 - 18:00
 		</h3>
-	</div>
+    </div>
+    
+    <button class="agenda-btn btn btn-lg btn-primary rounded-bottom btn-block">
+        Register
+    </button>
 </div>            </div>
         </aside>
     </div>
@@ -632,100 +648,7 @@
                                 </p>
                             </div>
                         </li>
-                                                
-
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    09
-                                    <span class="agenda-item__date-month">00</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">Registration and Coffee</h5>
-                            </div>
-                        </li>
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    09
-                                    <span class="agenda-item__date-month">30</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">Opening</h5>
-                                <p class="agenda-item__description">Prof. Van der Giessen</p>
-                            </div>
-                        </li>
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    09
-                                    <span class="agenda-item__date-month">45</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">SRON</h5>
-                                <p class="agenda-item__description">Dr. Ir. G. de Lange</p>
-                            </div>
-                        </li>
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    10
-                                    <span class="agenda-item__date-month">30</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">Coffee break</h5>
-                            </div>
-                        </li>
-
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    10
-                                    <span class="agenda-item__date-month">45</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">Speaker 2</h5>
-                                <p class="agenda-item__description">Prof...</p>
-                            </div>
-                        </li>
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    11
-                                    <span class="agenda-item__date-month">30</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">Speaker 3</h5>
-                                <p class="agenda-item__description">Prof...</p>
-                            </div>
-                        </li>
-
-                        <li class="agenda-item d-flex d-flex align-items-end">
-                            <div class="agenda-item__date align-self-start">
-                                <h5 class="agenda-item__date-day">
-                                    12
-                                    <span class="agenda-item__date-month">15</span>
-                                </h5>
-                            </div>
-
-                            <div class="agenda-item__body">
-                                <h5 class="agenda-item__header">Lunch</h5>
-                            </div>
-                        </li>
-
-                    </ul>
+                                            </ul>
                 </div>
                 <div class="col col-sm-6">
                     <h3 class="section-header">Afternoon</h3>
@@ -821,7 +744,7 @@
                           background-size: cover;
                           background-position: center;"
      class="mb-5 py-5">
-    <fieldset class="card card-block mx-auto" style="max-width: 750px">
+    <fieldset class="card card-body mx-auto" style="max-width: 750px">
         <legend>
             <h2 class="section-header">
                 Register
@@ -899,20 +822,20 @@
                 <legend>Payment method</legend>
 
                 <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="paymentMethod" id="cashPaymentCheckbox" value="cash">
+                    <input type="radio" class="form-check-input" name="paymentMethod" id="cashPaymentCheckbox" value="cash">
+                    <label class="form-check-label" for="cashPaymentCheckbox">
                         Cash
                     </label>
                 </div>
                 <div class="form-check">
-                    <label class="form-check-label">
                         <input type="radio" class="form-check-input" name="paymentMethod" id="ibanPaymentCheckbox" value="incasso" checked>
+                    <label class="form-check-label" for="ibanPaymentCheckbox">
                         Pre-authorized payment
                     </label>
                 </div>
 
-                <div class="form-group">
-                    <label for="iban" class="text-muted">Iban (in case of pre-authorized payment)</label>
+                <div class="form-group mt-2">
+                    <label for="iban" class="form-check-label text-muted" for="iban">Iban (in case of pre-authorized payment)</label>
                     <input type="text" class="form-control" id="iban" placeholder="iban" name="iban">
                 </div>
             </fieldset>
@@ -944,13 +867,12 @@ background-repeat:no-repeat;
 background-position: center center;
             height: 600px;
             ">
-
 </div>
 
         <footer class="">
     <div class="container-fluid">
         <div class="footer__contact-background footer__contact row">
-            <div class="col-12 col-sm-5 col-md-3 offset-md-1 my-3" id="contact">
+            <div class="col-12 col-sm-5 col-md-3 offset-md-1 my-3 order-2" id="contact">
                 <h4 class="footer__header h5 mb-3">Adress</h4>
 
                 <address class="footer__body">
@@ -960,7 +882,7 @@ background-position: center center;
                 </address>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 my-3">
+            <div class="col-12 col-sm-5 col-md-4 my-3 order-3">
                 <h4 class="footer__header h5 mb-3">Contact</h4>
 
                 <div class="footer__body">
@@ -970,12 +892,12 @@ background-position: center center;
                 </div>
             </div>
 
-            <div class="flex-md-first col-12 col-md-4 hidden-sm-down footer__logo skew-md--bottom-right">
+            <div class="col-12 col-md-4 hidden-sm-down footer__logo skew-md--bottom-right order-md-0">
                 <div class="align-middle align-items-center">
                     <div class="d-flex justify-content-center justify-content-md-end align-items-center">
                         <a class="header__title-link" href="/">
                             <img alt="Logo of T.F.V. 'Professor Francken'" src="./images/logo-min.png" class="img-fluid" />
-                            <h1 class="header__title text-left float-right hidden-md-down">
+                            <h1 class="header__title text-left float-right d-none d-lg-block">
                                 T.F.V.<br/>
                                 'Professor<br/>
                                 Francken'

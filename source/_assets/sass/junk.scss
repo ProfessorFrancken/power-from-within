@@ -55,7 +55,7 @@
 }
 
 .speaker-portrait {
-    border: thin solid $primary-color;
+    border: thin solid var(--primary);
     width: 100px;
     height: 100px;
     position: relative;

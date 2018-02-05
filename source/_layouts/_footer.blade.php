@@ -1,7 +1,7 @@
 <footer class="">
     <div class="container-fluid">
         <div class="footer__contact-background footer__contact row">
-            <div class="col-12 col-sm-5 col-md-3 offset-md-1 my-3" id="contact">
+            <div class="col-12 col-sm-5 col-md-3 offset-md-1 my-3 order-2" id="contact">
                 <h4 class="footer__header h5 mb-3">Adress</h4>
 
                 <address class="footer__body">
@@ -11,7 +11,7 @@
                 </address>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 my-3">
+            <div class="col-12 col-sm-5 col-md-4 my-3 order-3">
                 <h4 class="footer__header h5 mb-3">Contact</h4>
 
                 <div class="footer__body">
@@ -21,12 +21,12 @@
                 </div>
             </div>
 
-            <div class="flex-md-first col-12 col-md-4 hidden-sm-down footer__logo skew-md--bottom-right">
+            <div class="col-12 col-md-4 hidden-sm-down footer__logo skew-md--bottom-right order-md-0">
                 <div class="align-middle align-items-center">
                     <div class="d-flex justify-content-center justify-content-md-end align-items-center">
                         <a class="header__title-link" href="/">
                             <img alt="Logo of T.F.V. 'Professor Francken'" src="./images/logo-min.png" class="img-fluid" />
-                            <h1 class="header__title text-left float-right hidden-md-down">
+                            <h1 class="header__title text-left float-right d-none d-lg-block">
                                 T.F.V.<br/>
                                 'Professor<br/>
                                 Francken'

@@ -1,14 +1,8 @@
 <style>
- .header__registration-cta::before {
-     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('./images/{{ $header_image }}') !important;
- }
-
- .header__registration-cta::before,
- .header__registration-cta::after {
-    background-position-y: -100px;
- }
+    :root {
+        --header-image-background: var(--primary);
+        --header-image: url('/images/{{ $header_image }}');
+    }
 </style>
 <div class="stop-overflow">
     <div class="header__registration-cta">
