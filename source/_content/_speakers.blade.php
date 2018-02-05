@@ -34,5 +34,3 @@
         </div>
     </div>
 </div>
-
-<a href="#top" class="h3 mb-3 d-block text-center">Go to top</a>

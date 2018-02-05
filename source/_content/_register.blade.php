@@ -3,7 +3,7 @@
                           url(./images/symposium/blue-origin-min.jpg);
                           background-size: cover;
                           background-position: center;"
-     class="mb-5 py-5">
+     class="py-5">
     <fieldset class="card card-body mx-auto" style="max-width: 750px">
         <legend>
             <h2 class="section-header">
@@ -117,5 +117,3 @@
         </form>
     </fieldset>
 </div>
-
-<a href="#top" class="h3 my-3 d-block text-center">Go to top</a>

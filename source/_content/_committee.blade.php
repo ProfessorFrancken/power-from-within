@@ -1,6 +1,6 @@
-<div class="mt-5" style="
+<div style="
             background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url(http://borrelcie.vodka/img/bcie1516.JPG);
+                var(--committee-image);
             background-size: cover;
 background-repeat:no-repeat;
 background-position: center center;

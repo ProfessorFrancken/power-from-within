@@ -1,4 +1,4 @@
-<div class="ribbon mt-5" id="program">
+<div class="ribbon" id="program">
     <div class="container">
         <h2 class="ribbon__header">
             Program
@@ -17,8 +17,8 @@
                         <li class="agenda-item d-flex d-flex align-items-end">
                             <div class="agenda-item__date align-self-start">
                                 <h5 class="agenda-item__date-day">
-                                    {{ $hour }}            
-                                    {{ $minute }}            
+                                    {{ $hour }}
+                                    {{ $minute }}
                                 </h5>
                             </div>
 
@@ -119,6 +119,4 @@
             </div>
         </div>
     </div>
-
-    <a href="#top" class="h3 my-5 d-block text-center" style="color: white">Go to top</a>
 </div>

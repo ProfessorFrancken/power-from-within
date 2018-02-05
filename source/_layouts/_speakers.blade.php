@@ -1,4 +1,4 @@
-<div id="speakers" class="ribbon mb-5" style="
+<div id="speakers" class="ribbon" style="
                                 background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                                     url(./images/symposium/earth-min.jpg);
                                 background-size: cover;
@@ -114,5 +114,3 @@
         </div>
     </div>
 </div>
-
-<a href="#top" class="h3 mb-3 d-block text-center">Go to top</a>
