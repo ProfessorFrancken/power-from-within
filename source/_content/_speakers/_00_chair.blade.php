@@ -1,6 +1,6 @@
 <div id="speakers" class="ribbon mb-5" style="
                                 background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                                    url(./images/symposium/earth-min.jpg);
+                                    var(--chair-image);
                                 background-size: cover;
                                 background-position: center;
                                 color: #fafafa;

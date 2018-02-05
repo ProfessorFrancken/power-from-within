@@ -1,6 +1,6 @@
 <div id="register" style="
                           background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
-                          url(./images/symposium/blue-origin-min.jpg);
+                          var(--register-image);
                           background-size: cover;
                           background-position: center;"
      class="py-5">

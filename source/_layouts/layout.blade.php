@@ -34,7 +34,10 @@
              --header-image-color: #c56573;
              --header-image: url('/images/nuclear-power-plants.jpg');
 
+             --chair-image: url(./images/symposium/earth-min.jpg);
+             --register-image: url('./images/symposium/blue-origin-min.jpg');
              --committee-image: url('http://borrelcie.vodka/img/bcie1516.JPG')
+
          }
 
          .header__registration-cta::before {
