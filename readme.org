@@ -15,3 +15,43 @@
 ** Serve
 
 =docker-compose up php=
+
+* Configuration
+
+You can either edit the source and build the website using the commands mentioned previously, or you can edit the build html if you don't know how to run those commands.
+To change theme settings you can change the =:root {}= code in the html file,
+
+#+BEGIN_SRC html
+<style>
+:root {
+    --color: #001744;
+
+    --primary: #c56573;
+    --primary-dark: #c56573;
+    --primary-color: white;
+
+    /*
+       af465b
+     */
+
+    --secondary: #fafafa;
+    --secondary-dark: #c56573;
+    --secondary-color: #c56573;
+
+    --header-image-background: #efcdc8;
+    --header-image-color: #c56573;
+    --header-image: url('/images/nuclear-power-plants.jpg');
+
+    --chair-image: url(./images/symposium/earth-min.jpg);
+    --register-image: url('./images/symposium/blue-origin-min.jpg');
+    --committee-image: url(./images/symposium/committee.jpg')
+
+}
+
+.header__registration-cta::before {
+    /* background-position-y: -125px; */
+}
+</style>
+#+END_SRC
+
+Simply change the colors and urls to update the theme.
