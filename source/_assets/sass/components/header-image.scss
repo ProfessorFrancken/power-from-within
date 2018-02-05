@@ -3,6 +3,10 @@ $angle: 15deg;
 $registration-cta-height: 400px;
 $cta-height: 455px;
 
+:root {
+    --angle: 15deg;
+}
+
 .stop-overflow {
     width: 100%;
     overflow: hidden;
@@ -51,7 +55,7 @@ $cta-height: 455px;
     background-image: linear-gradient(
         to right,
         rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 0) 85%, 
+        rgba(255, 255, 255, 0) 85%,
         var(--header-image-background) 100%
     );
 
@@ -107,13 +111,13 @@ $cta-height: 455px;
         max-height: $cta-height;
         margin-left: 5em;
         margin-top: 0;
-        transform: skew($angle);
+        transform: skew(var(--angle));
         transform-origin: top left;
         border-radius: 0px 0px 0px 20px;
 
         > *, &::before, &::after {
             // "Revert" the skew transformation so the content and background is rendered normally
-            transform: skewX(-$angle);
+            transform: skewX(calc(-1 * var(--angle)));
             transform-origin: top left;
         }
     }
